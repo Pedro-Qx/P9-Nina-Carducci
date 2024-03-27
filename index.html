@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Nina Carducci - photographe</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Nina Carducci is a professional photographer. She offers photography sessions (photo shoots) for different kinds of events like concerts, weddings, and portraits. She also provides professional photo touch-ups and creates photo albums.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <link fetchpriority="high" rel="preload" href="./assets/images/slider/company_business-man-Tokio.webp" as="image"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
+	<script src="./assets/maugallery.min.js" defer></script>
+	<script src="./assets/scripts.js" defer></script>
+</head>
+
+<body>
+<div class="top-header">
+	<h1 class="name">Nina Carducci</h1>
+	<div class="nav">   
+		<ul>
+			<li><a aria-label="À propos de Nina Carducci" href="#about">À propos</a></li>
+			<li><a aria-label="Gallerie de photos" href="#gallery">Galerie</a></li>
+			<li><a aria-label="Service de photographie proposés" href="#services">Service</a></li>
+			<li><a aria-label="Contact de Nina Carducci" href="#contact">Contact</a></li>
+			<li><a aria-label="Instagram Nina Carducci" class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="header">
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img srcset="./assets/images/slider/company_business-man-Tokio.jpg 500w,./assets/images/slider/company_business-man-Tokio.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/slider/company_business-man-Tokio.jpg" class="d-block w-100" alt="company_business-man-Tokio">
+			</div>
+			<div class="carousel-item">
+				<img srcset="./assets/images/slider/concert_crowd.jpg 500w,./assets/images/slider/concert_crowd.webp 1500w"	sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/slider/concert_crowd.jpg" class="d-block w-100" alt="concert_crowd">
+			</div>
+			<div class="carousel-item">
+				<img srcset="./assets/images/slider/weddings_kiss.jpg 500w,./assets/images/slider/weddings_kiss.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/slider/weddings_kiss.jpg" class="d-block w-100" alt="weddings_kiss">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+</div>
+
+<div id="about">
+	<div class="picture left">
+		<img srcset="./assets/images/Nina_Carducci_photographer.webp 500w,./assets/images/Nina_Carducci_photographer.jpg 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/Nina_Carducci_photographer.jpg" alt="Nina_Carducci_photographe">
+	</div>
+	<div id="about-me">
+		<h2 class="about-me__title">A propos de moi</h2>
+		<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
+		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+	</div>
+</div>
+
+<div id="gallery">
+	<h2 class="title">Portfolio</h2>
+	<div class="container py-3">
+		<div class="gallery" style="display: none">
+			<img data-gallery-tag="Concert" class="gallery-item" srcset="./assets/images/gallery/concerts/Aaron_Paul_concert.jpg 500w,./assets/images/gallery/concerts/Aaron_Paul_concert.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/gallery/concerts/Aaron_Paul_concert.jpg" alt="Aaron_Paul_concert">
+			<img data-gallery-tag="Concert" class="gallery-item" srcset="./assets/images/gallery/concerts/Austin_Neill_concert.jpg 500w,./assets/images/gallery/concerts/Austin_Neill_concert.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/gallery/concerts/Austin_Neill_concert.jpg" alt="Austin_Neill_concert">
+			<img data-gallery-tag="Entreprises" class="gallery-item" srcset="./assets/images/gallery/entreprise/company_manager.jpg 500w,./assets/images/gallery/entreprise/company_manager.webp 1500w" sizes="(max-width:500px) 500px, (max-width:1700px) 1500px,1920px" src="./assets/images/gallery/entreprise/company_manager.jpg" alt="company_manager">
+			<img data-gallery-tag="Entreprises" class="gallery-item" srcset="./assets/images/gallery/entreprise/company_good-vibs-at-work.jpg 500w,./assets/images/gallery/entreprise/company_good-vibs-at-work.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/gallery/entreprise/company_good-vibs-at-work.jpg" alt="company_bonne-ambience-travail">
+			<img data-gallery-tag="Entreprises" class="gallery-item" srcset="./assets/images/gallery/entreprise/company_meeting.jpg 500w, ./assets/images/gallery/entreprise/company_meeting.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/gallery/entreprise/company_meeting.jpg" alt="reunion_de_travail">
+			<img data-gallery-tag="Mariages" class="gallery-item" srcset="/assets/images/gallery/mariage/weddings_hand-to-hand.jpg 500w,./assets/images/gallery/mariage/weddings_hand-to-hand.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/gallery/mariage/weddings_hand-to-hand.jpg" alt="marriage_main-dans-la-main">
+			<img data-gallery-tag="Mariages" class="gallery-item" srcset="/assets/images/gallery/mariage/weddings_couple.jpg 500w,./assets/images/gallery/mariage/weddings_couple.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/gallery/mariage/weddings_couple.jpg" alt="marriage_couple">
+			<img data-gallery-tag="Portrait" class="gallery-item" srcset="./assets/images/gallery/portraits/portrait_girl_in_black.jpg 500w,./assets/images/gallery/portraits/portrait_girl_in_black.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/gallery/portraits/portrait_girl_in_black.jpg" alt="portrait_girl_in_black">
+			<img data-gallery-tag="Portrait" class="gallery-item" srcset="./assets/images/gallery/portraits/portrait_man_closing-eyes.webp 500w,./assets/images/gallery/portraits/portrait_man_closing-eyes.webp 1500w" sizes="(max-width:500px) 500px,(max-width:1700px) 1500px,1920px" src="./assets/images/gallery/portraits/portrait_man_closing-eyes.jpg" alt="portrait_man_closing-eyes">
+		</div>
+	</div>
+	<div class="quote">
+		<div>
+			<blockquote>
+				<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
+			</blockquote>
+			<footer class="quote__author">- Richard Avedon</footer>
+		</div>
+	</div>
+</div>
+
+<div id="services">
+	<h2 class="title">Mes services</h2>
+	<div class="container">
+		<div class="service">
+			<div class="service__description">
+				<h3>Shooting photo</h3>
+				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
+			</div>
+			<div class="service__price">
+				<p>350€/demi journée</p>
+				<span>Matériel, déplacement inclus</span>
+			</div>
+		</div>
+		<div class="service">
+			<div class="service__description">
+				<h3>Retouches</h3>
+				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
+			</div>
+			<div class="service__price">
+				<p>50€/photo</p>
+				<span>2 AR par photo</span>
+			</div>
+		</div>
+		<div class="service">
+			<div class="service__description">
+				<h3>Album photos</h3>
+				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
+			</div>
+			<div class="service__price">
+				<p>400€ album A4</p>
+				<span>30 pages recto/verso</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="quote">
+	<div>
+		<blockquote>
+			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
+		</blockquote>
+		<footer class="quote__author">- Richard Avedon</footer>
+	</div>
+</div>
+
+<div id="contact">
+	<div class="container">
+		<div class="form-container">
+			<h2>Une question ? Une demande de devis ?</h2>
+			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+			<form action="#" method="post">
+				<label for="nom">Nom</label>
+				<input type="text" name="nom" id="nom">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email">
+				<label for="message">Message</label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				<input type="submit" value="Envoyer">
+			</form>
+		</div>
+		<div class="picture right">
+			<img
+			srcset="./assets/images/camera_Nina_Carducci.jpg 500w,
+					./assets/images/camera_Nina_Carducci.jpg 1500w"
+			sizes="(max-width:500px) 500px,
+							(max-width:1700px) 1500px,1920px"
+			src="./assets/images/camera_Nina_Carducci.jpg" alt="camera_Nina_Carducci">
+		</div>
+	</div>
+</div>
+</body>
+</html>
